@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Frontend: filtry przeszły live validation
+
+**Type:** analysis
+**What changed:** Live test filtra Cena do = 605000 PLN zwrócił dokładnie 3 z 6 lokali: BA0005, BA0351 i BA0577.
+**Why:** Wynik potwierdza, że logika filtrowania frontendu działa poprawnie na rzeczywistym verified snapshotcie.
+**Next:** Dodać widoczną listę aktywnych filtrów, aby użytkownik zawsze widział pełny zestaw obowiązujących kryteriów.
+**Files:** `analyses/2026-09-18-frontend-filters-live-validation-v1.md`
+
+---
+
 ## 2026-09-18 - Frontend: dodano wyszukiwarkę i filtry mieszkań
 
 **Type:** prototype
