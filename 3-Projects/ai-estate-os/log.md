@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Skanska Stilla: dodano one-command pipeline
+
+**Type:** prototype
+**What changed:** Dodano jedno polecenie łączące discovery, walidację, snapshot i diff dla Stilla; pipeline blokuje zapis snapshotu, jeśli jakikolwiek lokal ma FAIL lub UNKNOWN.
+**Why:** Ręczne uruchamianie czterech osobnych kroków zwiększa ryzyko pomyłki i niespójnego stanu; jeden kontrolowany pipeline upraszcza MVP i zachowuje gate jakości.
+**Next:** Pobrać zmiany lokalnie, uruchomić pełny pytest i pierwszy live run one-command pipeline.
+**Files:** `prototypes/2026-09-18-skanska-stilla-one-command-pipeline-v1.md`
+
+---
+
 ## 2026-09-18 - Skanska Stilla: kontrolowany diff wykrył wszystkie zmiany
 
 **Type:** analysis
