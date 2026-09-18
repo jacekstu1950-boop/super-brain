@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - FastAPI: lokalny runtime potwierdzony
+
+**Type:** analysis
+**What changed:** Uvicorn został poprawnie uruchomiony jako proces tła, port 8000 nasłuchuje, a endpoint /health zwrócił HTTP 200 z wersją API 0.1.0.
+**Why:** Potwierdza to, że problem nie leżał w FastAPI ani porcie, lecz w sposobie utrzymania procesu serwera w poprzednim oknie CMD.
+**Next:** Zweryfikować endpointy latest, changes i Swagger /docs.
+**Files:** `analyses/2026-09-18-fastapi-runtime-validation-v1.md`
+
+---
+
 ## 2026-09-18 - Skanska Stilla: dodano minimal API v1
 
 **Type:** prototype
