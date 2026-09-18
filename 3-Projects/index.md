@@ -6,6 +6,6 @@ Read this file before any project work.
 
 | Project | Status | What it is | Last update |
 |---|---|---|---|
-| [AI-Estate-OS](ai-estate-os/) | active | Interaktywna platforma webowa dla osób szukających mieszkania, która odnajduje informacje o lokalu, pozyskuje rzut 2D i wykorzystuje go do stworzenia wizualizacji 3D wspierającej decyzję zakupową. | 2026-09-18 - Skanska Stilla: snapshot diff potwierdzony |
+| [AI-Estate-OS](ai-estate-os/) | active | Interaktywna platforma webowa dla osób szukających mieszkania, która odnajduje informacje o lokalu, pozyskuje rzut 2D i wykorzystuje go do stworzenia wizualizacji 3D wspierającej decyzję zakupową. | 2026-09-18 - Skanska Stilla: kontrolowany diff wykrył wszystkie zmiany |
 
 Status values: `active`, `paused`, `shipped`, `killed`. Active projects sort to the top.
