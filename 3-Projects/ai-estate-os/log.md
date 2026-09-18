@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Skanska Stilla: dodano minimal API v1
+
+**Type:** prototype
+**What changed:** Dodano FastAPI z endpointami health, latest verified snapshot i latest changes, wraz z testami kontraktu oraz plikami dependencies.
+**Why:** Frontend nie powinien uruchamiać Playwrighta bezpośrednio; potrzebna jest stabilna warstwa aplikacyjna udostępniająca już zweryfikowane dane runtime.
+**Next:** Pobrać zmiany lokalnie, zainstalować dependencies, uruchomić testy i sprawdzić API przez uvicorn.
+**Files:** `prototypes/2026-09-18-skanska-stilla-api-v1.md`
+
+---
+
 ## 2026-09-18 - Skanska Stilla: one-command pipeline przeszedł live validation
 
 **Type:** analysis
