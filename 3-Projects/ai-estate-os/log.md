@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Skanska Stilla: snapshot diff potwierdzony
+
+**Type:** analysis
+**What changed:** Po dodaniu modułu diff przeszło 12/12 testów, a porównanie dwóch kolejnych live snapshotów Stilla zwróciło ADDED=0, REMOVED=0, CHANGED=0, UNCHANGED=6.
+**Why:** Wynik potwierdza, że pipeline potrafi zapisać i porównać dwa rzeczywiste stany ofert bez fałszywego raportowania zmian.
+**Next:** Wykonać kontrolowany test integracyjny zmian na kopii snapshotu, aby potwierdzić działanie raportowania zmiany ceny, dostępności, dodania i usunięcia lokalu.
+**Files:** `analyses/2026-09-18-skanska-stilla-snapshot-diff-validation-v1.md`
+
+---
+
 ## 2026-09-18 - Skanska Stilla: zapisano pierwszy snapshot ofert
 
 **Type:** prototype
