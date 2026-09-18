@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Frontend: ujednolicono liczniki i polskie etykiety
+
+**Type:** prototype
+**What changed:** Górny panel rozdziela teraz Wyświetlane lokale, Łącznie w ofercie i Zweryfikowane poprawnie; wartości available/unavailable/UNKNOWN oraz nazwy zmian zostały przetłumaczone na polski.
+**Why:** Użytkownik wskazał rozbieżność między liczbą lokali w źródle a liczbą wyników po filtrze oraz wymóg pełnego polskiego interfejsu.
+**Next:** Pobrać zmiany lokalnie, uruchomić testy i zweryfikować licznik 3/6 oraz polskie etykiety na live froncie.
+**Files:** `analyses/2026-09-18-polish-labels-synchronized-counters.md`
+
+---
+
 ## 2026-09-18 - Frontend: filtry przeszły live validation
 
 **Type:** analysis
