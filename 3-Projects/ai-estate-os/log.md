@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Frontend: dodano minimalny widok Stilla
+
+**Type:** prototype
+**What changed:** Dodano prosty frontend pod /, który korzysta wyłącznie z endpointów latest i changes i prezentuje tabelę zweryfikowanych lokali Stilla.
+**Why:** Potrzebny jest pierwszy end-to-end widok użytkownika, który potwierdzi przepływ danych pipeline -> snapshot -> API -> frontend bez bezpośredniego uruchamiania scrapera z UI.
+**Next:** Pobrać zmiany lokalnie, uruchomić pytest i sprawdzić frontend w przeglądarce.
+**Files:** `prototypes/2026-09-18-minimal-frontend-v1.md`
+
+---
+
 ## 2026-09-18 - FastAPI: lokalny runtime potwierdzony
 
 **Type:** analysis
