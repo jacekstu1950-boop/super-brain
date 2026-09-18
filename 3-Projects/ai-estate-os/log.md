@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Frontend: dodano wyszukiwarkę i filtry mieszkań
+
+**Type:** prototype
+**What changed:** Dodano filtrowanie po kodzie, pokojach, piętrze, dostępności, metrażu i cenie oraz sortowanie i reset filtrów; dodano testy kontraktu frontendu.
+**Why:** Pierwszy rzeczywisty interfejs AI-Estate-OS musi pozwalać użytkownikowi ograniczyć verified snapshot do lokali odpowiadających jego kryteriom bez bezpośredniego kontaktu ze scraperem.
+**Next:** Pobrać zmiany lokalnie, uruchomić pytest i zweryfikować filtry na live froncie.
+**Files:** `prototypes/2026-09-18-apartment-search-filters-v1.md`
+
+---
+
 ## 2026-09-18 - Frontend: dodano minimalny widok Stilla
 
 **Type:** prototype
