@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Skanska Stilla: zapisano pierwszy snapshot ofert
+
+**Type:** prototype
+**What changed:** Lokalnie przeszło 10/10 testów, zapisano pierwszy pełny snapshot Stilla oraz dodano moduł porównujący dwa najnowsze snapshoty i klasyfikujący zmiany jako ADDED / REMOVED / CHANGED / UNCHANGED.
+**Why:** MVP potrzebuje nie tylko jednorazowego odczytu ofert, lecz także kontrolowanego wykrywania zmian ceny, dostępności i składu listy między kolejnymi uruchomieniami.
+**Next:** Pobrać moduł diff lokalnie, wykonać drugi snapshot i uruchomić porównanie dwóch kolejnych stanów.
+**Files:** `analyses/2026-09-18-skanska-stilla-snapshot-baseline-v1.md`
+
+---
+
 ## 2026-09-18 - Skanska Stilla: 6/6 lokali przeszło pełną weryfikację
 
 **Type:** analysis
