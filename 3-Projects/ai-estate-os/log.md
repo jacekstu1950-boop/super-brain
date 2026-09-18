@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Skanska adapter i listing discovery v1
+
+**Type:** prototype
+**What changed:** Zweryfikowano lokalnie SkanskaAdapter v1 (3/3 testy PASS) i dodano listing discovery v1, który wykrywa kody lokali Stilla wyłącznie z linków do konkretnych mieszkań oraz opcjonalnie przekazuje je do walidacji PASS / FAIL / UNKNOWN.
+**Why:** Stary scraper błędnie traktował dowolne fragmenty zawierające `m²` jako mieszkania; nowy flow zaczyna od jednoznacznego kodu lokalu i nie wypełnia brakujących danych.
+**Next:** Pobrać najnowsze zmiany lokalnie, uruchomić pełny pytest oraz live discovery Stilla, a następnie ograniczoną weryfikację 3 wykrytych lokali.
+**Files:** `analyses/2026-09-18-skanska-adapter-listing-v1.md`
+
+---
+
 ## 2026-09-16 - Project created
 
 **Type:** scope-change
