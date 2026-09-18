@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Skanska Stilla: one-command pipeline przeszedł live validation
+
+**Type:** analysis
+**What changed:** Pełny live run one-command pipeline zakończył się statusem OK, wykrył 6 lokali, zweryfikował PASS=6 / FAIL=0 / UNKNOWN=0, zapisał snapshot i raport diff z UNCHANGED=6.
+**Why:** Wynik potwierdza, że discovery, walidacja, snapshot i diff działają razem end-to-end bez ręcznego uruchamiania osobnych etapów i bez pomijania gate jakości.
+**Next:** Dodać prostą warstwę aplikacyjną/API do udostępniania verified snapshotu i raportu zmian frontendowi.
+**Files:** `analyses/2026-09-18-skanska-stilla-one-command-live-validation.md`
+
+---
+
 ## 2026-09-18 - Skanska Stilla: dodano one-command pipeline
 
 **Type:** prototype
