@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Skanska Stilla live discovery wykrył 6 lokali
+
+**Type:** analysis
+**What changed:** Live discovery na aktualnej stronie Stilla wykrył 6 kodów lokali: AC0340, BA0003, BA0005, BA0351, BA0577 i BA0688, bez sztucznych rekordów tworzonych z zakresów powierzchni.
+**Why:** Wynik potwierdza, że listing discovery działa na realnym źródle i może przekazywać jednoznaczne kody lokali do dalszej walidacji adapterem zamiast zgadywać mieszkania na podstawie tekstu strony.
+**Next:** Zweryfikować ograniczoną próbkę 3 wykrytych lokali przez SkanskaAdapter i sprawdzić PASS / FAIL / UNKNOWN przed weryfikacją całej listy.
+**Files:** `analyses/2026-09-18-skanska-stilla-live-discovery-v1.md`
+
+---
+
 ## 2026-09-18 - Skanska adapter i listing discovery v1
 
 **Type:** prototype
