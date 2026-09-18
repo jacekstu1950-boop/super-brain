@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Skanska Stilla: kontrolowany diff wykrył wszystkie zmiany
+
+**Type:** analysis
+**What changed:** Kontrolowany test integracyjny zwrócił ADDED=1, REMOVED=1, CHANGED=1, UNCHANGED=4; dodatkowo odseparowano syntetyczne snapshoty testowe od katalogu live i dodano ignorowanie generated snapshots w Git.
+**Why:** Test potwierdza poprawność klasyfikacji zmian, a separacja danych testowych zapobiega zanieczyszczeniu historii live fałszywymi stanami ofert.
+**Next:** Usunąć lokalny syntetyczny snapshot z katalogu live, pobrać poprawkę i ponownie uruchomić testy.
+**Files:** `analyses/2026-09-18-skanska-stilla-controlled-diff-integration-test.md`
+
+---
+
 ## 2026-09-18 - Skanska Stilla: snapshot diff potwierdzony
 
 **Type:** analysis
