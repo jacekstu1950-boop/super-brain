@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-18 - Skanska Stilla: 6/6 lokali przeszło pełną weryfikację
+
+**Type:** analysis
+**What changed:** Pełna weryfikacja wszystkich 6 lokali wykrytych na stronie Stilla zakończyła się wynikiem PASS=6, FAIL=0, UNKNOWN=0.
+**Why:** Wynik potwierdza, że bieżący flow listing discovery -> kod lokalu -> SkanskaAdapter działa poprawnie dla całego aktualnego snapshotu Stilla, bez tworzenia sztucznych rekordów i bez zgadywania brakujących danych.
+**Next:** Dodać snapshot danych ofertowych oraz mechanizm porównywania zmian między kolejnymi uruchomieniami.
+**Files:** `analyses/2026-09-18-skanska-stilla-full-verification-v1.md`
+
+---
+
 ## 2026-09-18 - Skanska Stilla: 3/3 lokali przeszły weryfikację
 
 **Type:** analysis
