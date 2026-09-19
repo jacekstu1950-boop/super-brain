@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-19 - Dodano kamerę wnętrza 35 mm i renderer perspektywiczny
+
+**Type:** prototype
+**What changed:** Dodano TEST_PRESET kamery 35 mm na wysokości 1,65 m oraz osobny renderer perspektywiczny wnętrza własnego testowego mieszkania.
+**Why:** Etap 5D ma przejść z modelu technicznego do pierwszej rzeczywistej perspektywy wnętrza bez zmiany geometrii źródłowej.
+**Next:** Uruchomić pytest i renderer lokalnie, następnie wizualnie potwierdzić poprawność kadru i perspektywy.
+**Files:** `prototypes/2026-09-19-interior-camera-35mm-v1.md`
+
+---
+
 ## 2026-09-19 - Dodano architektoniczną geometrię ścian i otworów
 
 **Type:** prototype
