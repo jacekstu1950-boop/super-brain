@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-19 - Dodano własny testowy pipeline 2D → geometria → 3D
+
+**Type:** prototype
+**What changed:** Dodano syntetyczny SVG, parser geometrii, walidację i deterministyczną scenę 3D JSON. Materiały Skanska nie są używane.
+**Why:** Etap 5 może być rozwijany technicznie bez naruszania gate praw do rzutów dewelopera.
+**Next:** Uruchomić testy i lokalny pipeline; po PASS dodać renderer 3D dla własnego modelu testowego.
+**Files:** `prototypes/2026-09-19-owned-test-floorplan-pipeline-v1.md`
+
+---
+
 ## 2026-09-19 - Wdrożono kontrolę praw do rzutu 2D
 
 **Type:** analysis
