@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-19 - Dodano materiały, światło i testową aranżację wnętrza
+
+**Type:** prototype
+**What changed:** Dodano TEST_STAGING z materiałami ścian i podłóg, oświetleniem ambient/okiennym, prostymi meblami testowymi oraz osobnym rendererem materiałowym.
+**Why:** Etap 5E ma zweryfikować kierunek wizualny przed docelowym rendererem fotorealistycznym, bez zmiany geometrii źródłowej.
+**Next:** Uruchomić pytest i geometry.test_floorplan_material_renderer lokalnie oraz wizualnie ocenić materiały, światło i czytelność wnętrza.
+**Files:** `prototypes/2026-09-19-materials-lighting-staging-v1.md`
+
+---
+
 ## 2026-09-19 - Dodano kamerę wnętrza 35 mm i renderer perspektywiczny
 
 **Type:** prototype
