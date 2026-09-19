@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-19 - Wdrożono kontrolę praw do rzutu 2D
+
+**Type:** analysis
+**What changed:** Dodano jawny gate BLOCKED_PENDING_WRITTEN_CONSENT, plik compliance, endpoint statusu praw i komunikat w karcie mieszkania.
+**Why:** Publiczna informacja Skanska wskazuje, że kopiowanie, opracowywanie i udostępnianie materiałów graficznych wymaga pisemnej zgody.
+**Next:** Uzyskać pisemną zgodę określającą dozwolony zakres użycia rzutu 2D przed uruchomieniem automatycznego 2D -> 3D.
+**Files:** `analyses/2026-09-19-floorplan-rights-gate-v1.md`
+
+---
+
 ## 2026-09-19 - Dodano aktywne filtry i UX
 
 **Type:** prototype
