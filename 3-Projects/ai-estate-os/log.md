@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-19 - Dodano architektoniczną geometrię ścian i otworów
+
+**Type:** prototype
+**What changed:** Własny rzut testowy ma teraz jawne ściany z grubością, otwory powiązane ze ścianami oraz deterministyczne wycinanie drzwi i okna w scenie 3D.
+**Why:** Etap 5C ma odwzorować rzeczywistą geometrię architektoniczną zamiast prostych brył pomieszczeń, nadal przy zachowaniu 2D jako źródła prawdy.
+**Next:** Uruchomić pełny pytest, wygenerować scenę i renderer oraz wizualnie potwierdzić otwór drzwiowy i okienny.
+**Files:** `prototypes/2026-09-19-architectural-geometry-walls-openings-v1.md`
+
+---
+
 ## 2026-09-19 - Dodano renderer 3D własnego rzutu testowego
 
 **Type:** prototype
