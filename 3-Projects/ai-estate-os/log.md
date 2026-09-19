@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-19 - Dodano aktywne filtry i UX
+
+**Type:** prototype
+**What changed:** Dodano widoczne etykiety aktywnych filtrów, możliwość usuwania pojedynczego filtra oraz automatyczną synchronizację wyników i liczników.
+**Why:** Użytkownik musi jednoznacznie widzieć, które kryteria wpływają na wynik wyszukiwania.
+**Next:** Pobrać zmiany lokalnie, uruchomić testy i wykonać live validation usuwania pojedynczych filtrów.
+**Files:** `prototypes/2026-09-19-active-filters-ux-v1.md`
+
+---
+
 ## 2026-09-18 - Frontend: ujednolicono liczniki i polskie etykiety
 
 **Type:** prototype
