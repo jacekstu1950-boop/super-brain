@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-19 - Dodano renderer 3D własnego rzutu testowego
+
+**Type:** prototype
+**What changed:** Dodano samowystarczalny renderer HTML/canvas dla deterministycznej sceny 3D, z obrotem myszą, zoomem i widokiem z góry. Renderer działa tylko dla OWN_TEST_ASSET i geometrii PASS.
+**Why:** Potrzebny jest wizualny test końca pipeline 2D → geometria → 3D bez używania materiałów dewelopera.
+**Next:** Uruchomić pytest i geometry.test_floorplan_renderer lokalnie; po PASS rozważyć model ścian i otworów jako właściwą geometrię architektoniczną.
+**Files:** `prototypes/2026-09-19-owned-test-floorplan-renderer-v1.md`
+
+---
+
 ## 2026-09-19 - Dodano własny testowy pipeline 2D → geometria → 3D
 
 **Type:** prototype
