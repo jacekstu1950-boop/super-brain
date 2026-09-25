@@ -1,3 +1,13 @@
+## 2026-09-25 - BA0122 Master Geometry v1 vector lock
+
+**Type:** implementation / geometry
+**What changed:** Directly inspected the user-supplied BA0122.svg (hash c452101011e3ba110f62e4ebaa81ebd1f2539cd3c384deecaefa88bb44e5d947), locked the structural vector layer, structural masses, opening layer, furniture/reference layer and source label areas in AI-Estate-OS. Updated `geometry/master/BA0122.master.json` to `VECTOR_LOCKED_V1_METRIC_PENDING`.
+**Verified:** room areas 3.49 + 4.80 + 4.34 + 23.04 + 11.82 = 47.49 m² (PASS).
+**Conflict retained:** balcony 9.33 m² in SVG vs 8.50 m² on current webpage; no silent reconciliation.
+**Next:** metric calibration, semantic opening classification and room polygons; furniture remains non-authoritative staging/reference only.
+
+---
+
 # AI-Estate-OS — Log
 
 Append-only. Newest entry at the top. The AI writes this - see `3-Projects/README.md`.
