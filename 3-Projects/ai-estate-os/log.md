@@ -6,6 +6,16 @@ Types: `decision`, `prototype`, `analysis`, `research`, `scope-change`, `shipped
 
 ---
 
+## 2026-09-25 - Przygotowano pobranie i audyt oficjalnego BA0122.svg
+
+**Type:** analysis / implementation
+**What changed:** Dodano manifest Master Geometry BA0122, lokalny pipeline pobrania oficjalnego SVG, hashing/provenance, inspekcję SVG i testy. Compliance zmieniono na USER_CONFIRMED_PERMISSION przy zachowaniu blokady publicznej republiki do czasu archiwizacji dowodu zgody.
+**Why:** Plansza pochodna miała niespójne wymiary i balkon, więc geometria musi być odbudowana wyłącznie z oficjalnego źródła.
+**Next:** Użytkownik uruchamia `python -m geometry.ba0122_source_audit`; na podstawie raportu piszemy parser ścian i otworów do Master Geometry v1.0.
+**Files:** `analyses/2026-09-25-ba0122-official-source-ingestion-v1.md`
+
+---
+
 ## 2026-09-19 - Dodano materiały, światło i testową aranżację wnętrza
 
 **Type:** prototype
